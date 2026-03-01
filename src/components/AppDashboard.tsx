@@ -70,7 +70,7 @@ export default function AppDashboard({ profile }: Props) {
       <header className="sticky top-0 z-30 bg-card/80 backdrop-blur-xl border-b border-border">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src={foodieLogo} alt="Foodie" className="w-10 h-10 rounded-xl" />
+            <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-2xl">🍔</div>
             <div>
               <h1 className="font-display font-black text-xl text-gradient-fire leading-tight">Foodie</h1>
               <p className="text-muted-foreground text-xs font-body leading-tight hidden sm:block">
